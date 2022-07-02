@@ -1,7 +1,46 @@
+.infoText {
+    margin-top: 20px;
+    text-align: center;
+}
 .mainContainer {
     display: flex;
     justify-content: space-around;
     height: 100vh;
     width: 80%;
     margin: 30px auto;
+}
+
+.historicalContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.lastestContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.listContainer {
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 2px solid rgb(189, 189, 189);
+    text-align: center;
+    background-color: lightgray;
+    width: 70%;
+}
+
+.nameContainer {
+    font-weight: 600;
+    background-color: lightcoral;
+    border-radius: 5px 5px 0 0;
+}
+
+.valueContainer {
+    background-color: lightblue;
+    border-radius: 0 0 5px 5px;
 }
